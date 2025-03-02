@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogadores - Leeds United</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: gray; 
+            color: white;
+            position: relative;
+        }
+        .escudo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+
+            width: 500px; /* Reduzindo o tamanho */
+            opacity: 0.2; /* Transparência de 20% */
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background: rgba(0, 0, 0, 0.7); /* Fundo escuro translúcido */
+            position: relative;
+            z-index: 1; /* Para que a tabela fique na frente do escudo */
+        }
+        th, td {
+            border: 2px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+        }
+        td img {
+            display: block;
+            margin: auto;
+        }
+        a {
+            display: block;
+            margin: 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="imagens/escudo-removebg-preview.png" alt="Escudo do Leeds United" class="escudo">
+
+    <header>
+        <h1>Lista de Jogadores</h1>
+    </header>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Foto</th>
+            <th>Posição</th>
+            <th>Número</th>
+        </tr>
+        <tr>
+            <td>Illan Meslier</td>
+            <td><img src="imagens/Meslier.jpg" alt="Illan Meslier" width="150" height="100"></td>
+            <td>Goleiro</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Joe Rodon</td>
+            <td><img src="imagens/OIP.jpg" alt="Rodon" width="150" height="100"></td>
+            <td>Zagueiro</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Mateo Joseph</td>
+            <td><img src="imagens/Joseph.jpg" alt="Joseph" width="150" height="100"></td>
+            <td>Atacante</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+    <a href="index.html">← Voltar para o Início</a>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; 2025 Leeds United</p>
+    </footer>
+</body>
+</html>
