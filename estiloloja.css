@@ -8,6 +8,7 @@ header {
     color: white;
   padding: 15px;
     font-size: 24px;
+    display: grid;
 }
 .container {
     width: 80%;

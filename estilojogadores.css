@@ -14,7 +14,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    z-index: 0; /* Mantém o escudo atrás da tabela */
+    z-index: 0; 
 }
 
 header {
@@ -32,7 +32,7 @@ table {
     width: 80%;
     margin: 40px auto;
     border-collapse: collapse;
-    background-color: rgba(128, 128, 128, 0.7); /* Cor cinza com 70% de opacidade */
+    background-color: rgba(128, 128, 128, 0.7); 
     border-radius: 8px;
     overflow: hidden;
     z-index: 1;
