@@ -1,5 +1,5 @@
-let salvarDados = function (event) {
-    event.preventDefault(); // Evita o envio do formulário
+function salvarDados(event) {
+    event.preventDefault(); // Previne qualquer comportamento padrão
 
     let dadosBancarios = { 
         numeroCartao: document.getElementById('numerocartao').value,
@@ -10,7 +10,4 @@ let salvarDados = function (event) {
     sessionStorage.setItem('dadosBancarios', JSON.stringify(dadosBancarios));
 
     alert("Dados bancários salvos com sucesso!");
-};
-
-// Adiciona o event listener ao formulário
-document.getElementById('form-dados').addEventListener('submit', salvarDados);
+}
