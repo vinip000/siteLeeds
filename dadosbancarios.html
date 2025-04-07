@@ -12,14 +12,15 @@
     </header>
 
     <main>
-        <form>
+        <form id="form-dados">
             <div class="container"> 
                 <h2>Informações pessoais</h2>
+
                 <label for="numerocartao">Número do Cartão :</label>
                 <input type="text" id="numerocartao" name="numerocartao" required> <br><br>
 
                 <label for="validade">Validade:</label>
-                <input type="validade" id="validade" name="validade" required> <br><br>
+                <input type="text" id="validade" name="validade" required> <br><br>
 
                 <label for="codsegurança">Código de Segurança:</label>
                 <input pattern="[0-9]{3}" type="text" id="codsegurança" name="codsegurança" required> <br><br>
@@ -28,5 +29,8 @@
             </div>
         </form>
     </main>
+
+    <script type="text/javascript" src="./scripts/endereco.js"></script>
+    <script type="text/javascript" src="./scripts/dadosbancarios.js"></script>
 </body>
 </html>
